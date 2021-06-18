@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import classes from './AppNoteList.module.css';
+import AppNoteListEl from '../appNoteListEl/AppNoteListEl'
 
 export default class AppNoteList extends Component {
   render() {
+    const { notes } = this.props
     return (
-      <div className={classes['note-list-container']}>
-        <h2>Note Lists</h2>
-      </div>
+      <ul className={classes['note-list-container']}>
+        {notes.map(note => <AppNoteListEl note={note} />)}
+      </ul>
     );
   }
 }

@@ -1,4 +1,10 @@
 .note-list-container{
   border-bottom: 1px solid #DADCE0;
-  grid-area: noteList
+  padding-bottom: 1rem;
+  height: 100%;
+  grid-area: noteList;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
