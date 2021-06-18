@@ -1,5 +1,5 @@
-import React, { Component, Fragment} from 'react'
-import { Switch, Route } from 'react-router';
+import React, { Component} from 'react'
+import { Switch, } from 'react-router';
 import classes from './App.module.css';
 import AppNavBar from './components/appNav/AppNabBar'
 import AppAside from './components/appAside/AppAside'

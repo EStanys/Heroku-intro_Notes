@@ -1,6 +1,9 @@
-
+* {
+  font-family:'Times New Roman', Times, serif;
+}
 
 .App {
+  
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 2.5fr;

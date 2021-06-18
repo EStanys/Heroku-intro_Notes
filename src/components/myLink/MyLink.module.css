@@ -20,6 +20,10 @@
   background-color: #F1F3F4;
 }
 
+.links-container:hover.active {
+  background-color: #FEEFC3;
+}
+
 .links-container i {
   padding-right: 10px;
 }

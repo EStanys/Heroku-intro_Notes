@@ -3,24 +3,41 @@ import MyLink from '../myLink/MyLink';
 import classes from './AppAside.module.css';
 
 export default class AppAside extends Component {
-  constructor() {
-    super();
-    this.state = {
-      linkIsActive: false,
-    };
-  }
+  state = {
+    homeActive: false,
+    reminderActive: false,
+  };
 
-  linkClickHandler = () => {
-    this.setState({linkIsActive:false})
-    this.setState({linkIsActive:true})
-  }
+  homeActiveHandler = () => {
+    this.setState({
+      reminderActive: false,
+      homeActive: true,
+    });
+  };
+  reminderActiveHandler = () => {
+    this.setState({
+      homeActive: false,
+      reminderActive: true,
+    });
+  };
+
   render() {
     return (
       <div className={classes['aside-container']}>
-        <MyLink onClick={this.linkClickHandler} to="/" iClass="fa fa-home">
+        <MyLink 
+        onActiveHandler={this.homeActiveHandler} 
+        active={this.state.homeActive} 
+        to="/" 
+        iClass="fa fa-home">
           Home
         </MyLink>
-        <MyLink active to="/" iClass="fa fa-bell">
+
+        <MyLink
+          onActiveHandler={this.reminderActiveHandler}
+          active={this.state.reminderActive}
+          to="/"
+          iClass="fa fa-bell"
+        >
           Reminder
         </MyLink>
       </div>
