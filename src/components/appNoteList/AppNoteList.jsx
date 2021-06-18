@@ -7,7 +7,7 @@ export default class AppNoteList extends Component {
     const { notes } = this.props
     return (
       <ul className={classes['note-list-container']}>
-        {notes.map(note => <AppNoteListEl note={note} />)}
+        {notes.map(note => <AppNoteListEl key={Math.random()} note={note} />)}
       </ul>
     );
   }
