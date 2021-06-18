@@ -1,0 +1,4 @@
+.add-note-container {
+  border-bottom: 1px solid #DADCE0;
+  grid-area: addNote
+}

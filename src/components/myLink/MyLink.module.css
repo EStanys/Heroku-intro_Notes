@@ -1,0 +1,29 @@
+
+.links-container {
+  text-align: left;
+  padding: 0.5rem 0 0.5rem 2rem;
+  margin-right: 0.7rem;
+  display: flex;
+  align-items: center;
+  border-bottom-right-radius: 14px;
+  border-top-right-radius: 14px;
+  
+}
+.links-container a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  height: 1.3rem;
+}
+
+.links-container:hover {
+  background-color: #F1F3F4;
+}
+
+.links-container i {
+  padding-right: 10px;
+}
+
+.active {
+  background-color: #FEEFC3;
+}

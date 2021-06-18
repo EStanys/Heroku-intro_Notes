@@ -1,0 +1,42 @@
+
+.nav-bar-container {
+  border-top: 1px solid #DADCE0;
+  border-bottom: 1px solid transparent;
+ box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 20%);
+  grid-area: navBar;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.nav-bar-container img {
+  height: 50px;
+  display: inline-block
+}
+
+.nav-bar-container input {
+  height: 50px;
+  display: inline-block;
+  width: 50%;
+  border: none;
+  border-radius: 8px;
+  background-color: #F1F3F4;
+}
+
+.nav-bar-container input::placeholder{
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.nav-bar-container i {
+  font-size: 1.3rem;
+}
+
+.logo-container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 5px
+}
