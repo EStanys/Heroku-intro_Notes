@@ -1,0 +1,149 @@
+.add-note-container {
+  border-bottom: 1px solid #dadce0;
+  grid-area: addNote;
+}
+
+.add-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inner-note {
+  /* border: 1px solid #000; */
+  padding: 0.8em;
+  border-radius: 5px;
+  min-width: 300px;
+  box-shadow: 3px 4px 15px 0px #b3b3b3;
+  background-color: white;
+  width: 600px;
+  /* height: 198px; */
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input {
+  border: none;
+  display: block;
+  /* margin-bottom: 1em; */
+  height: 28px;
+  padding: 16px 15px 12px 15px;
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  width: 96%;
+  background-color: wheat;
+}
+
+.input:focus-visible {
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+
+.text-area {
+  border: none;
+  display: block;
+  height: 48px;
+  padding: 16px 15px 12px 15px;
+ letter-spacing: .00625em;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    background-color: wheat;
+}
+.text-area:focus-visible {
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+
+.note-el-toolbar {
+  width: 80%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  
+}
+.note-el-toolbar-container {
+height: 36px;
+background-color: blanchedalmond;
+display: flex;
+gap: 1rem;
+}
+
+.link-like {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  float: right;
+}
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.437);
+}
+
+
+/* .note-el-container {
+  border: 1px solid #DADCE0;
+  padding: 0.8em;
+  border-radius: 1px solid ;
+  border-radius: 5px;
+  width: 600px;
+  height: 198;
+  list-style: none;
+  min-height: 30px;
+  padding: 12px 16px;
+   max-height: 200px;
+  text-align: left;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.note-el-container h3, i{
+  display: inline-block;
+}
+
+.note-el-container i {
+  float: right;
+  font-size: 1.3rem;
+}
+
+.note-el-container h3{
+  height: 28px;
+  padding: 16px 15px 12px 15px;
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+.note-el-container p{
+  height: 48px;
+  padding: 16px 15px 12px 15px;
+ letter-spacing: .00625em;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    
+}
+.note-el-toolbar {
+  height: 36px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color: blanchedalmond;
+}
+
+.modal-background {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.437);
+} */
